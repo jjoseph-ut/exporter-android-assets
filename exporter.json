@@ -1,5 +1,5 @@
 {
-    "id": "io.supernova.android-assets",
+    "id": "com.usertesting.android-assets-exporter",
     "name": "Android Assets",
     "description": "Export vector assets for Android",
     "author": "Jiri Trecak",
