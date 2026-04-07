@@ -3,13 +3,13 @@
 
 {* Prepare folder based on scale *}
 {[ switch asset.scale ]}
-    {[ case "1x" ]}
+    {[ case "x1" ]}
         {[ folder = "res/drawable-hdpi" /]}
-    {[ case "2x" ]}
+    {[ case "x2" ]}
         {[ folder = "res/drawable-xhdpi" /]}
-    {[ case "3x" ]}
+    {[ case "x3" ]}
         {[ folder = "res/drawable-xxhdpi" /]}
-    {[ case "4x" ]}
+    {[ case "x4" ]}
         {[ folder = "res/drawable-xxxhdpi" /]}
 {[/]}
 
